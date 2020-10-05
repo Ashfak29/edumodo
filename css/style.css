@@ -1,0 +1,439 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1 h2 h3 h4 h5 h6{
+	font-family: 'Montserrat', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+/*Main css code here*/
+/*header section code start here*/
+.header-section{
+	min-width: 100%;
+    height: 100vh;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+    
+}
+
+.menu-section{
+	width: 100%;
+    
+	
+}
+.menu-section .navbar-light .navbar-nav .active>.nav-link{
+	color:#ffc178;
+	border-bottom: 2px solid #ffc178;
+}
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color:#5a6e79;
+    margin: 0px 15px;
+    font-size: 15px;
+    font-weight: 700;
+	padding-bottom: 0px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover {
+	color:#ffc178;
+	border-bottom: 2px solid #ffc178;
+}
+.menu-section .navbar-light .navbar-nav .btn-info{
+	padding: 10px 35px;
+	background: #fff;
+	color:#ffc178;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 15px;
+	transition: 1s ease-in-out;
+}
+.menu-section .navbar-light .navbar-nav .btn-info:hover,.menu-section .navbar-light .navbar-nav .btn-info:focus{
+	background: #ffc178;
+	color:#fff;
+	border: 0px;
+}
+.bannar-section{
+	width: 100%;
+	
+	
+}
+.bannar-section .bannar-innar{
+	width: 100%;
+    margin-top: 180px;
+	
+}
+.bannar-section .bannar-innar h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #ffc178;
+}
+.bannar-section .bannar-innar p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #5a6e79;
+}
+
+.bannar-section .bannar-innar .btn-info{
+	padding: 10px 35px;
+	margin-top: 10px;
+	background: #ffc178;
+	color:#fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 15px;
+	transition: 1s ease-in-out;
+}
+
+.bannar-section .bannar-innar .btn-info:hover,.bannar-section .bannar-innar .btn-info:focus{
+	background:#fff;
+	color:#ffc178;
+	border: 0px;
+}
+
+
+
+/*header section code end*/
+/****************.department-section css starts*******************/
+.department-section {
+    width: 100%;
+   
+}
+
+.department-section .department-inner {
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+
+.department-section .department-inner h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.department-section .department-inner p {
+    color: #5a6e79;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.department-section .feature-inner {
+    width: 100%;
+    text-align: center;
+}
+
+.department-section .bg1 {
+    background-color: #f9703a;
+}
+
+.department-section .bg2 {
+    background-color: #80be41;
+}
+
+.department-section .bg3 {
+    background-color: #ffb258;
+}
+
+.feature-inner h1 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+/****************.department-section css ends********************/
+
+/****************about chairman css starts********************/
+.about-chairman {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.about-chairman .text-inner {
+    width: 100%;
+}
+
+.about-chairman .text-inner h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-chairman .text-inner p {
+    color: #5a6e79;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.students {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.courses {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.hours {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.students h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffba00;
+    margin-bottom: -4px;
+}
+
+.students h6 {
+    color: #ffba00;
+}
+
+.courses h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff5f72;
+    margin-bottom: -4px;
+}
+
+.courses h6 {
+    color: #ff5f72;
+}
+
+.hours h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #43cb83;
+    margin-bottom: -4px;
+}
+
+.hours h6 {
+    color: #43cb83;
+}
+
+/****************about chairman css ends********************/
+
+/*around-university code start*/
+
+.around-university{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.university-inner{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.university-inner h1{
+    font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	
+}
+.university-course .card{
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px #b6b6b8, 2px 2px 12px #fff;
+    transition: .5s;
+}
+.university-course .card .card-title{ 
+    font-size: 14px;
+    line-height:1.25;
+    font-weight: 600;
+    color:#252c3a;
+
+
+}
+.university-course .card .card-text{
+    color: #5a6e79;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+} 
+.university-course .card .go{
+    color: #5a6e79;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.university-course .card:hover{
+    transform: scale(1.1);
+}
+
+.university-course .card:hover .card-title{ 
+  
+  color: #ffba00;
+  text-decoration: underline;
+  
+}
+
+
+.university-course .card:hover .go{
+    color:#000;
+    
+}
+
+
+/*around-university code end*/
+
+/* footer section css */
+.footer{
+    width: 100%;
+}
+.footer .footer-wighet{
+    width: 100%;
+    padding: 50px 0px;
+    background: #252c3a;
+}
+.footer .footer-wighet .footer-wighet-inner{
+    text-align: left;
+}
+.footer .footer-wighet .footer-wighet-inner p{
+    margin-top: 16px;
+    font-size: 13px;
+    color: #969595;
+    line-height: 22px;
+}
+.footer .footer-wighet .footer-wighet-inner .bor{
+    border-bottom: 1px solid #96959533;
+}
+.footer .footer-wighet .footer-wighet-inner ul{
+    display: block;
+    margin-top: 15px;
+}
+.footer .footer-wighet .footer-wighet-inner ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.footer .footer-wighet .footer-wighet-inner ul li a{
+    text-align: center;
+}
+.footer .footer-wighet .footer-wighet-inner ul li a .fa{
+    color: #969595;
+    font-size: 18px;
+
+    transition: 1s;
+}
+.footer .footer-wighet .footer-wighet-inner ul li a .fa:hover{
+    color: #0089fd;;
+}
+.footer .footer-wighet .footer-wighet-inner-1 h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer .footer-wighet .footer-wighet-inner-1 ul{
+    display: block;
+    margin-top: 42px;
+}
+.footer .footer-wighet .footer-wighet-inner-1 ul li{
+    list-style: none;
+    display: inline;
+    font-size: 13px;
+    color: #969595;
+    line-height: 22px;
+}
+.footer .footer-wighet .footer-wighet-inner-1 ul li span{
+    font-size: 12px;
+    color: #6b6b6b;
+}
+.footer .footer-wighet .footer-wighet-inner-1 .main-form{
+    width: 100%;
+    
+}
+.footer .footer-wighet .footer-wighet-inner-1 ul li a{
+    font-size: 13px;
+    color: #969595;
+    line-height: 22px;
+}
+.footer .footer-wighet .footer-wighet-inner-1 ul li a:focus, .footer .footer-wighet .footer-wighet-inner-1 ul li a:hover{
+    text-decoration: none;
+    color: #ffc178;
+}
+
+.footer .footer-wighet .footer-wighet-inner-1 .input-group .form-control{ 
+
+    border-radius:0px;
+    
+}
+
+.footer .footer-wighet .footer-wighet-inner-1 .form-control:focus{
+    box-shadow: none;
+}
+.footer .footer-wighet .footer-wighet-inner-1 .input-group .btn {
+    
+    border-radius:0px;
+    
+}
+.footer .footer-wighet .footer-wighet-inner-1 .input-group .btn-info {
+    color: #fff;
+    background-color: #ffc178;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+.footer .footer-wighet .footer-wighet-inner-1 .input-group .btn-info:focus, .footer .footer-wighet .footer-wighet-inner-1 .btn-info:hover{
+    box-shadow: none;
+    color: #ffc178;
+    background-color: #fff;
+    border: 1px solid #ffc178;
+}
+.main-footer{
+    width: 100%;
+    padding: 0px 0px;
+    background: #1d232e;
+}
+.main-footer .text{
+    text-align: left;
+    margin-top: 20px;
+}
+.main-footer .text p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #616163;
+}
+.main-footer .main-footer-inner{
+    text-align: right;
+    margin-top: 20px;
+}
+.footer .main-footer .main-footer-inner ul{
+    display: block;
+}
+.footer .main-footer .main-footer-inner ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+.footer .main-footer .main-footer-inner ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #616163;
+}
+.footer .main-footer .main-footer-inner ul li a:focus, .footer .main-footer .main-footer-inner ul li a:hover{
+    text-decoration: none;
+    color: #ffc178;
+}
